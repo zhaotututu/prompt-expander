@@ -24,7 +24,7 @@
 - DashScope API Key（需提前申请）  
 
 ### 🚀 一键运行  
-！！！！！注意，如果下载压缩包，请点击页面右边Releases下面的Prompt Expander v1.0.1 - Repackaging，下载V1.0.rar即可，其他那两个GITHUB自动打包的文件会报错。！！！！！
+！！！！！注意，如果下载压缩包，请点击页面右边Releases下面的Prompt Expander v1.0.1 - Repackaging，下载prompt-expander.rar即可，其他那两个GITHUB自动打包的文件会报错。！！！！！
 
 
 推荐直接采用$ git clone https://github.com/zhaotututu/prompt-expander.git
