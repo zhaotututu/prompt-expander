@@ -1,4 +1,4 @@
-# 赵图图设计编写
+# 赵图图设计编写;Design by zhaotutu;
 import os
 import base64
 import gradio as gr
