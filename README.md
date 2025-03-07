@@ -24,10 +24,26 @@
 - DashScope API Key（需提前申请）  
 
 ### 🚀 一键运行  
+！！！！！注意，如果下载压缩包，请点击页面右边Releases下面的Prompt Expander v1.0.1 - Repackaging，下载V1.0.rar即可，其他那两个GITHUB自动打包的文件会报错。！！！！！
+
+
+推荐直接采用$ git clone https://github.com/zhaotututu/prompt-expander.git
+方式下载。下载完成后：
 
 1. **解压项目文件** 到任意目录（例如 `C:\PromptTool`）  
-2. **申请 DashScope API Key**，并配置环境变量：  
+2. **申请 DashScope API Key**，并配置环境变量：  （注意！一定要先申请一下API Key然后再运行，否则一定会报错）
+申请方式非常简单：
 
+阿里大模型API申请页面：
+https://dashscope.console.aliyun.com/overview
+点击登录
+（没账号就注册一个）
+点击API-KEY管理
+点击创建新的API-KEY
+复制新创建的API-KEY
+
+
+设置API Key的方法：
 **方法 1**（临时设置，仅当前窗口有效）：  
 ```bat
 set DASH_API_KEY=your_api_key_here
@@ -36,6 +52,10 @@ set DASH_API_KEY=your_api_key_here
 - **Win + R**，输入 `sysdm.cpl`，回车  
 - 选择 **高级 > 环境变量 > 新建**  
 - 变量名填写 `DASH_API_KEY`，变量值填写你的 API Key，保存并重启电脑  
+
+**方法 3**（方便但是不安全）：  
+- **用记事本打开config.py
+- 找到os.environ["DASH_API_KEY"] = "请在这里填入你的API KEY"，填入API KEY*  
 
 3. **双击 `双击我运行.bat`**，工具会自动：  
    - 检查 Python 和 pip 是否可用  
